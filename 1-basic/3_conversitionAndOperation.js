@@ -27,3 +27,34 @@ let someNumber = 33;
 let someString = String(someNumber);
 console.log(someNumber);
 console.log(typeof someString);
+
+// ************Operations***********
+let value = 3
+let negValue = -value;
+//console.log(negValue);
+//console.log(2+2);
+//console.log(2-2);
+//console.log(2*2);
+//console.log(2**2);
+//console.log(2/2);
+//console.log(2%2);
+
+let str1 = "Hello"
+let str2 = " Nitish"
+let str3 = str1 + str2;
+console.log(str3);
+/*console.log("1" + 1);
+console.log(1 + "1");
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
+console.log(true);
+console.log(+true);
+console.log(+false);
+console.log(+ "");*/
+let num1, num2, num3, num4;
+num1 = num2 = num3 = num4 = 2 + 2;
+console.log(num1);
+
+let counterNumber = 100;
+counterNumber++;
+console.log(counterNumber);
